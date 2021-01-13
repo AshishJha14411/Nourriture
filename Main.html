@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title></Title>
+        <link rel='stylesheet' href="./css/main.css">
+        <script type="text/javascript" src="./script/main.js" async></script>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="nav-bar">
+            <ul class="navigation">
+               <li class="tablink" onclick="toggleDisplay('yourcart')"><a href="#yourcart">Your Cart</a></li>
+               <li class="tablink" onclick="toggleDisplay('recipe')"><a href="#recipe">Recipe</a></li>
+               <li class="tablink" onclick="toggleDisplay('Reservation')"><a href="#Reservation">Reservations</a></li>
+               <li class="tablink" onclick="toggleDisplay('dishes')"><a href="#dishes" class="a-dish">Dishes</a>
+                <ul class="dropdown">
+                    <li><a href="#specials" onclick="toggleDisplay('dishes')">Specials</a></li>
+                    <li><a href="#biryani"onclick="toggleDisplay('dishes')">Biryani</a></li>
+                    <li><a href="#nvcurry" onclick="toggleDisplay('dishes')">Non-Veg Curry</a></li>
+                    <li><a href="#veg" onclick="toggleDisplay('dishes')">Vegetarian</a></li>
+                    <li><a href="#rotis" onclick="toggleDisplay('dishes')">Indian Breads</a></li>
+                </ul>
+            </li>
+            <li class="tablink" onclick="openPage('homepage',this,'red')"><a href='Main.html'>Home</a></li>
+           </ul>
+        </div>
+        <div class="tabcontent front-page" id="homepage">
+            <div id="home">
+                <h1>Welcome to the 
+                    Nourriture</h1>
+                    <p>The Restaurant offers a unique experiance of dishes which have been submitted by our users.</p>
+            </div>
+        </div>
+    <div id="dishes" class="tabcontent dishes">
+        <div id="specials" class="specials rs-img img">
+            <section class="items"><h3>Restaurant Specials</h3>
+                <h2>These are our Specials</h2>
+                
+                <div class="food-box">
+                    <div>
+                        <img src="./img/Chicken Tikka Kebab.JPG" class="food-pic" alt="Chicken Tikka">
+                        <h4 class="title">Chicken Tikka Kebab</h4>
+                        <p class="price"> 250 &#8360</p>
+                        <button class="addbtn">Add to Cart</button>
+                    </div>
+               
+                    <div>
+                        <img src="./img/panner-tikka.jpg" class="food-pic" alt="panner tikka">
+                            <h4 class="title">Panner Tikka
+                            </h4><p class="price">250 &#8360</p>
+                            <button class="addbtn">Add to Cart</button>
+                    </div>
+                
+                    <div>
+
+                        <img src="./img/mutton kofta.jpg" class="food-pic" alt="Chicken Tikka">
+                        <h4 class="title">Mutton Kofta</h4>
+                        <p class="price">360 &#8360</p>
+                        <button class="addbtn">Add to Cart</button>
+
+                    </div>
+               
+                    <div>
+                        <img src="./img/sheekh kabab.jpg" class="food-pic" alt="Sheelh-kebab">
+                        <h4 class="title">Sheekh Kabab</h4>
+                        <p class="price">400 &#8360</p>
+                        <button class="addbtn">Add to Cart</button>
+
+                    </div>
+                
+                    <div>
+                        <img src="./img/mutton keema.jpg" class="food-pic" alt="Mutton-keema">
+                        <h4 class="title">Mutton keema</h4>
+                        <p class="price"> 450 &#8360</p>
+                        <button class="addbtn">Add to Cart</button>
+                    </div>
+                
+                    <div>
+                        <img src="./img/malabar fish.jpg" class="food-pic" alt="malabar-fish">
+                        <h4 class="title">Malabar Fish Biryani</h4>
+                        <p class="price"> 400 &#8360</p>
+                        <button class="addbtn">Add to Cart</button>
+
+                    </div>
+                </div>
+               
+            </section>
+        </div>
+        <div id="biryani" class="biryani bi-img img">
+            <section class="ptext">
+                <h3>Biryani</h3>
+                <h2>These are our Biryani</h2>
+                <div class="food-box">
+                    <div>
+                        <img src="./img/p4.jpg" class="food-pic" alt="mutton-biryani">
+                        <h4 class="title">Mutton Biryani</h4>
+                        <p class="price"> 450 &#8360</p>
+                        <button class="addbtn">Add to Cart</button>
+                    </div>
+               
+                    <div>
+                        <img src="./img/biryani.jpg" class="food-pic" alt="biryani">
+                            <h4 class="title">Plain Chicken Biryani
+                            </h4><p class="price">300 &#8360</p>
+                            <button class="addbtn">Add to Cart</button>
+                    </div>
+                
+                    <div>
+                        <img src="./img/calicut chicken.jpg" class="food-pic" alt="calicut-chicken">
+                        <h4 class="title">Calicut Chicken</h4>
+                        <p class="price"> 350 &#8360</p>
+                        <button class="addbtn">Add to Cart</button>
+
+                    </div>
+               
+                    <div>
+                        <img src="./img/chicken reshmi.jpg" class="food-pic" alt="reshmi">
+                        <h4 class="title">Chicken Reshmi Biryani</h4>
+                        <p class="price"> 350 &#8360</p>
+                        <button class="addbtn">Add to Cart</button>
+
+                    </div>
+                
+                    <div>
+                        <img src="./img/egg biryani.jpg" class="food-pic" alt="egg-biryani">
+                        <h4 class="title">Egg biryani</h4>
+                        <p class="price"> 200 &#8360</p>
+                        <button class="addbtn">Add to Cart</button>
+                    </div>
+                
+                    <div>
+                        <img src="./img/malabar fish.jpg" class="food-pic" alt="malabar-fish">
+                        <h4 class="title">Malabar Fish Biryani</h4>
+                        <p class="price"> 400 &#8360</p>
+                        <button class="addbtn">Add to Cart</button>
+
+                    </div>
+                    <div>
+                        <img src="./img/Keema biryani.jpg" class="food-pic" alt="keema biryani">
+                            <h4 class="title"> Keema biryani
+                            </h4><p class="price"> 400 &#8360</p>
+                            <button class="addbtn">Add to Cart</button>
+                    </div>
+                </div>
+               
+            </section>
+            
+            
+            
+        </div>
+        <div id="nvcurry" class="nvcurry c-img img">
+    
+        <section>
+            <h3>Non-Veg Curry</h3>
+            <h2>These are our non veg Curry</h2>
+            <div class="food-box">
+                <div>
+                    <img src="./img/butter chicken.jpg" class="food-pic" alt="butter-chicken">
+                    <h4 class="title">Butter Chicken</h4>
+                    <p class="price"> 350 &#8360</p>
+                    <button class="addbtn">Add to Cart</button>
+                </div>
+        
+                <div>
+                    <img src="./img/Kadai-Chicken-3.jpg" class="food-pic" alt="kadai-chicken">
+                        <h4 class="title">Kadai Chicken
+                        </h4><p class="price"> 300 &#8360</p>
+                        <button class="addbtn">Add to Cart</button>
+                </div>
+            
+                <div>
+                    <img src="./img/Murg-do-Pyaza-500x360.jpg" class="food-pic" alt="chicken-pyaza">
+                    <h4 class="title">Murg Do Pyaza</h4>
+                    <p class="price"> 360 &#8360</p>
+                    <button class="addbtn">Add to Cart</button>
+
+                </div>
+        
+                <div>
+                    <img src="./img/mutton-curry.jpg" class="food-pic" alt="mutton-curry">
+                    <h4 class="title">Mutton Curry</h4>
+                    <p class="price"> 400 &#8360</p>
+                    <button class="addbtn">Add to Cart</button>
+
+                </div>
+            
+                <div>
+                    <img src="./img/mutton keema.jpg" class="food-pic" alt="Mutton-keema">
+                    <h4 class="title">Mutton keema</h4>
+                    <p class="price"> 450 &#8360</p>
+                    <button class="addbtn">Add to Cart</button>
+                </div>
+        
+                <div>
+                    <img src="./img/p3.jpg" class="food-pic" alt="egg curry">
+                    <h4 class="title">Egg Curry</h4>
+                    <p class="price"> 200 &#8360</p>
+                    <button class="addbtn">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+        </div>
+        <div id="veg" class="veg v-img img">
+            <section>
+                <h3>Vegetarian Foods</h3>
+                <h2>These are Our veggies</h2>
+                <div class="food-box">
+                    <div>
+                        <img src="./img/1.jpg" class="food-pic" alt="Pannerbiryani">
+                        <h4 class="title">Panner Biryani</h4>
+                        <p class="price"> 350 &#8360</p>
+                        <button class="addbtn">Add to Cart</button>
+                    </div>
+               
+                    <div>
+                        <img src="./img/panner-tikka.jpg" class="food-pic" alt="panner tikka">
+                            <h4 class="title">Panner Tikka
+                            </h4><p class="price"> 250 &#8360</p>
+                            <button class="addbtn">Add to Cart</button>
+                    </div>
+                
+                    <div>
+                        <img src="./img/dal-makhani.jpg" class="food-pic" alt="Dal makhani">
+                        <h4 class="title">Dal Makhani</h4>
+                        <p class="price">260 &#8360</p>
+                        <button class="addbtn">Add to Cart</button>
+
+                    </div>
+               
+                    <div>
+                        <img src="./img/Matar-Paneer.jpg" class="food-pic" alt="Mattar-paneer">
+                        <h4 class="title">Mattar paneer</h4>
+                        <p class="price">300 &#8360</p>
+                        <button class="addbtn">Add to Cart</button>
+                    </div>
+                
+                    <div>
+                        <img src="./img/p2.jpg" class="food-pic" alt="Mix Veg">
+                        <h4 class="title">Mix Veg</h4>
+                        <p class="price"> 350 &#8360</p>
+                        <button class="addbtn">Add to Cart</button>
+                    </div>
+                    <div>
+                        <img src="./img/shahi paneer.jpg" class="food-pic" alt="panner-shahi">
+                            <h4 class="title">Shahi Paneer
+                            </h4><p class="price"> 500 &#8360</p>
+                            <button class="addbtn">Add to Cart</button>
+                    </div>
+                    <div>
+                        <img src="./img/panner-butter-masala.jpg" class="food-pic" alt="panner-butter-masala">
+                        <h4 class="title">Paneer Butter Masala
+                        </h4><p class="price">300 &#8360</p>
+                        <button class="addbtn">Add to Cart</button>
+                    </div>
+                    <div>
+                        <img src="./img/panner-masala.jpg" class="food-pic" alt="panner masala">
+                        <h4 class="title">Paneer Masala
+                        </h4><p class="price"> 200 &#8360</p>
+                        <button class="addbtn">Add to Cart</button>
+                    </div>
+                    <div>
+                        <img src="./img/veg biryani.jpg" class="food-pic" alt="Veg Biryani">
+                        <h4 class="title">Veg Biryani
+                        </h4><p class="price">200 &#8360</p>
+                        <button class="addbtn">Add to Cart</button>
+                    </div>
+                    <div>
+                        <img src="./img/Palak-Paneer.jpg" id="friedPaneer" class="food-pic" id="friedpaneer" alt="Palak-Paneer">
+                        <h4 class="title">Palak Paneer
+                        </h4>
+                            <p style="color:red">Out of Stock!</p>
+                        <p class="price"> 400 &#8360</p>
+                        <div>
+                            <button class="addbtn">Add to Cart
+                                <button  id="friedbtn"onclick='friedPaneer()'>Fried Paneer</button>
+                                <button id="normalbtn" onclick='normalPaneer()'>Normal Paneer</button>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+               
+            
+            </section>
+        </div>
+        <div id="rotis" class="rotis r-img img">
+            <section><h3>Rotis and rice</h3><h2>Also known as chappatis</h2>
+                <div class="food-box">
+                    <div>
+                        <img src="./img/butter nun.jpg" class="food-pic" alt="butter-nun">
+                        <h4 class="title">Butter Nun</h4>
+                        <p class="price"> 40 &#8360</p>
+                        <button class="addbtn">Add to Cart</button>
+                    </div>
+               
+                    <div>
+                        <img src="./img/Garlic-Naan-1-3.jpg" class="food-pic" alt="garlic-nun">
+                            <h4 class="title">Garlic Nun
+                            </h4><p class="price"> 50 &#8360</p>
+                            <button class="addbtn">Add to Cart</button>
+                    </div>
+                
+                    <div>
+                        <img src="./img/plain roti.jpeg" class="food-pic" alt="plain-roti">
+                        <h4 class="title">Plain Roti</h4>
+                        <p class="price"> 25 &#8360</p>
+                        <button class="addbtn">Add to Cart</button>
+
+                    </div>
+               
+                    <div>
+                        <img src="./img/p5.jpg" class="food-pic" alt="Tandoori-roti">
+                        <h4 class="title"> Tandoori Roti</h4>
+                        <p class="price">40 &#8360</p>
+                        <button class="addbtn">Add to Cart</button>
+
+                    </div>
+                
+                    <div>
+                        <img src="./img/rumali.jpg" class="food-pic" alt="Rumali-roti">
+                        <h4 class="title">Rumali Roti</h4>
+                        <p class="price">50 &#8360</p>
+                        <button class="addbtn">Add to Cart</button>
+                    </div>
+                
+                    <div>
+                        <img src="./img/plain rice.jpg" class="food-pic" alt="plain-rice">
+                        <h4 class="title">Plain-Rice</h4>
+                        <p class="price">120 &#8360 </p>
+                        <button class="addbtn">Add to Cart</button>
+
+                    </div>
+                    <div>
+                        <img src="./img/mushroom rice.jpg" class="food-pic" alt="mushroom-rice">
+                            <h4 class="title">Mushroom Rice
+                            </h4><p class="price"> 220 &#8360</p>
+                            <button class="addbtn">Add to Cart</button>
+                    </div>
+                    <div>
+                        <img src="./img/lemon rice.jpeg" class="food-pic" alt="lemon-rice">
+                            <h4 class="title">Lemon rice
+                            </h4><p class="price">180 &#8360</p>
+                            <button class="addbtn">Add to Cart</button>
+                    </div>
+                    <div>
+                        <img src="./img/jeera rice.jpg" class="food-pic" alt="jeera-rice">
+                            <h4 class="title">Jeera Rice
+                            </h4><p class="price"> 200 &#8360</p>
+                            <button class="addbtn">Add to Cart</button>
+                    </div>
+                </div>
+               
+            
+            </section>
+        </div>
+    </div>
+    <div id="Reservation" class="tabcontent">
+        <h3>Reservation</h3>
+        <div class="reserve">
+            <h2>We will book a table for you!</h2>
+            <form class="res" action="Reserve">
+                <div class="res-opt">
+                    <label for="yname">Your Name</label><br>
+                    <input type="text" placeholder="Enter your name" name="yname" id="yname" required><br><br>
+                    <label for="yemail">Your Email</label><br>
+                    <input type="email" placeholder="Enter your email" name="yemail" id="yemail"><br><br>
+                    <label for="yno">Your Cell no.</label><br>
+                    <input type="tel" placeholder="Enter your name" name="yno" id="yno" required><br><br><br>
+                    <label id="numpeople">Table for <select id="dropdown" required>
+                            <option disabled selected value="">
+                                0
+                            </option>
+                            <option>2</option>
+                            <option>4</option>
+                            <option>6</option>
+                            <option>8</option>
+                        </select>
+                    </label>
+                    
+
+                        <label id="timefd">Time: <select id="dropdown" required>
+                            <option disabled selected value="">
+                                12:00 PM
+                            </option>
+                            <option>1:30 PM</option>
+                            <option>2:30 PM</option>
+                            <option>3:30 PM</option>
+                            <option>4:30 PM</option>
+                            <option>5:30 PM</option>
+                            <option>6:30 PM</option>
+                            <option>7:30 PM</option>
+                        </select>
+                    </label><br><br><br><br>
+                    <button type="submit" id="submit" class="sub-btn" onclick="reservationSubmit()">Submit</button>
+                
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="recipe" class="tabcontent">
+        <h3>Submit Recipes Today !!!</h3>
+        <form action="submit" class="sub-recipe">
+            <h2>Share your way of cooking, and get a chance to have your dish become a part of our Menu</h2>
+                <div class="reci">
+                    <label id="name-label">Name:</label><br>
+                    <input type="text" class="formx" id="name" name="yname" placeholder="Enter Your Name" required><br><br>
+                    <label id="email-label">Email: </label><br>
+                    <input type="email" class="formx" id="email" name="yemail" placeholder="Enter Your Email Address" required><br><br>
+                    <label id="textarea" required>Enter Your Recipe</label>
+                    <br><br>
+                    <textarea id="review" name="yreveiw" rows="16" cols="90" placeholder="Please write the Recipe in details"></textarea> <br>
+                    <button type="submit" id="submit" class="sub-btn">Submit</button>
+                </div>
+            </form>
+    </div>
+    <div id="yourcart">
+        <div class="cart">
+
+            <h3 class="section-header">Your Cart</h3>
+            <section class="container content-section">
+                <div class="cart-row">
+                    <span class="cart item-image cart-header cart-column"></span>
+                    <span class="cart-price align-price cart-header cart-column"></span>
+                    <span class="cart-quantity  cart-header cart-column"></span>
+                </div>
+                <div class="cart-items">
+                </div>
+                <div class="cart-total"><br>
+                    <strong class="cart-total-title">Total</strong>
+                    <span class="cart-total-price"> 0 </span>
+                    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+                    <br>
+                </div>
+        </div>
+        </section>
+    </div>     
+        <footer></footer>
+    </body>
+    </html>
